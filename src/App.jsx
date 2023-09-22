@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import BodyContent from "./components/BodyContent";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <div className='border'>LICT API</div>
+      <Navbar />
+      <BodyContent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
