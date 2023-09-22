@@ -1,0 +1,3 @@
+# LICT API
+
+DRF REST API + React
